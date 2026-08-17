@@ -3,7 +3,7 @@ name: Deploy to Azure VPS
 on:
   push:
     branches:
-      - deployment/talhavps
+      - main
 
 jobs:
   deploy:
