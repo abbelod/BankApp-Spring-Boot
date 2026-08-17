@@ -21,7 +21,7 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             # Navigate to your project directory on the VPS
-            cd /home/azureuser/deployment/BankApp-RedMath
+            cd /home/azureuser/deployment/BankApp-Spring-Boot
 
             # Pull the latest changes from GitHub
             git reset --hard HEAD
