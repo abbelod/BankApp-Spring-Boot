@@ -24,9 +24,8 @@ jobs:
             cd /home/azureuser/deployment/BankApp-RedMath
 
             # Pull the latest changes from GitHub
-            git fetch origin deployment/talhavps
-            git checkout deployment/talhavps
-            git pull origin deployment/talhavps
+            git reset --hard HEAD
+            git pull origin main
 
             # Rebuild and restart Docker containers in detached mode
             docker compose down
